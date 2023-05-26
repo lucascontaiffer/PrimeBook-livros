@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>PrimeBook</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu">
+                <span class="cabeçalho_menu-hamburguer container_imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_titulo">Categoria</li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Programação</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Front-end</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Business</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Design & UX</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/Vector.png" alt="Sacola" class="container_imagem"></a>
+            <a href="#"><img src="img/Usuario.png" alt="Usuario" class="container_imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Meus livros favoritos estão aqui, vamos começar?</h2>
+        <p class="banner_texto">Aqui você encontrara de tudo, estoicismo, filosofia, Programação, ficção e etc.</p>
+        <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="all-books">
+        <h1 class="books_titulo">Livros</h1>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/book-1-m.jpeg" alt="O homen mais rico da babilonia"></div>
+            <div class="swiper-slide"><img src="img/book-2-m.jpeg" alt="12 regras para a vida"></div>
+            <div class="swiper-slide"><img src="img/book-3.jpg" alt="O horror de dunwich"></div>
+            <div class="swiper-slide"><img src="img/book-5-m.jpeg" alt="Nada pode me ferir"></div>
+            <div class="swiper-slide"><img src="img/book-6.jpg" alt="O chamado de cthulhu"></div>
+            <div class="swiper-slide"><img src="img/book-7-m.jpeg" alt="Hábitos atômicos"></div>
+            <div class="swiper-slide"><img src="img/book-8.jpg" alt="Sussuros na escuridão"></div>
+            <div class="swiper-slide"><img src="img/book-9.jpg" alt="Gatilhos mentais"></div>
+            <div class="swiper-slide"><img src="img/book-10.jpeg" alt="Quem pensa enriquece"></div>
+            <div class="swiper-slide"><img src="img/book-11.jpeg" alt="Como convencer alguém em 90 segundos"></div>
+            <div class="swiper-slide"><img src="img/book-12.jpg" alt="Os 7 hábitos da pessoas altamente eficazes"></div>
+            <div class="swiper-slide"><img src="img/book-13.jpeg" alt="O ego é seu inimigo"></div>
+            <div class="swiper-slide"><img src="img/book-14.jpeg" alt="Mude seus horários, mude sua vida"></div>
+            ...
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        </div>
+
+        <div class="card">
+            <div class="card_descriçao">
+                <div class="descriçao">               
+                    <h3 class="descriçao_titulo">Howard Phillips Lovecraft.</h3>
+                    <h2>Mais conhecido como H. P. Lovecraft.</h2>
+                    <p>foi um escritor estadunidense que revolucionou o gênero de terror, ficção estranha, científica, fantasia e horror, atribuindo-lhe elementos fantásticos típicos dos gêneros de fantasia e ficção científica, sendo mais conhecido por sua criação dos Mitos de Cthulhu.</p>
+                </div>
+                <div class="img-botao">
+                    <img src="img/hplovrecraft-m.jpg" alt="Howard Phillips Lovecraft" class="card-image">
+                    <a href="hp.lovecraft.html" class="botao-img">Saiba mais!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="books_titulo">Favoritos</h1>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/book-8.jpg" alt="Sussuros na escuridão"></div>
+            <div class="swiper-slide"><img src="img/book-9.jpg" alt="Gatilhos mentais"></div>
+            <div class="swiper-slide"><img src="img/book-10.jpeg" alt="Quem pensa enriquece"></div>
+            <div class="swiper-slide"><img src="img/book-11.jpeg" alt="Como convencer alguém em 90 segundos"></div>
+            <div class="swiper-slide"><img src="img/book-12.jpg" alt="Os 7 hábitos da pessoas altamente eficazes"></div>
+            <div class="swiper-slide"><img src="img/book-13.jpeg" alt="O ego é seu inimigo"></div>
+            <div class="swiper-slide"><img src="img/book-14.jpeg" alt="Mude seus horários, mude sua vida"></div>
+            ...
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        </div>
+
+        <div class="card">
+            <div class="card_descriçao">
+                <div class="descriçao">               
+                    <h3 class="descriçao_titulo">Napoleon Hill</h3>
+                    <h2>"O escritor americano Napoleon Hill nasceu em 1883 e faleceu em 1970."</h2>
+                    <p>Napoleon Hill foi um escritor americano e um dos principais representantes do Movimento Novo Pensamento. Suas obras são de autoajuda e possuem caráter motivacional.</p>
+                </div>
+                <div class="img-botao">
+                    <img src="img/napoleonhill.jpg" alt="Howard Phillips Lovecraft" class="card-image">
+                    <a href="napoleonhill.html" class="botao-img">Saiba mais!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tópicos">
+        <h2 class="tópicos_titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos_lista">
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">Napoleon Hill</a>
+            </li>
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">H.P.Lovecraft.</a>
+            </li>
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">HTML & CSS</a>
+            </li>
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">JS</a>
+            </li>
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">Python</a>
+            </li>
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">Séneca</a>
+            </li>
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">Java</a>
+            </li>
+            <li class="tópicos_item">
+                <a href="#" class="tópicos_link">React</a>
+            </li>
+        </ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',},
+        });
+    </script>
+</body>
+</html>

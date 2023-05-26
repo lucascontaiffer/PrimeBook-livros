@@ -1,0 +1,30 @@
+.tópicos{
+    text-align: center;
+    background: var(--verde-degrade);
+}
+.tópicos_titulo{
+    padding: 1em;
+}
+
+.tópicos_lista{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tópicos_item{
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: orange;
+    text-decoration: none;
+}
+.tópicos_link{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (min-width: 1200px){
+    .tópicos_item{
+        padding: 1em 1em;
+    }
+}

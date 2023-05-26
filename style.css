@@ -1,0 +1,29 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/books.css");
+@import url('styles/card.css');
+@import url("styles/wiki.css");
+@import url("styles/topicos.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor-cinza-fundo: rgb(219, 219, 219);
+    --cor-branco: white;
+    --cor-preto: black;
+    --verde-degrade: linear-gradient(97.54deg, #005226 35.49%, #32895d 165.37%);
+    --cor-laranja: #005226;
+    /*laranja:#EB9B00*/
+    -cor-azul-banner: #023052;
+
+    --fonte-principal: "poppins";
+}
+body{
+    background-color: var(--cor-cinza-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,47 @@
+.wiki{
+    background-color: var(--cor-branco);
+    margin: 0px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.texto-wiki_principal{
+    padding: 10px;
+    
+    font-family: var(--fonte-principal);
+}
+.texto-wiki{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    padding: 10px;
+}
+.texto-wiki-wiki{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    padding: 10px 10px 20px 10px;
+}
+.botao-wiki{
+    text-decoration: none;
+    background-color: var(--cor-laranja);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+@media screen and (min-width: 1200px){
+    .wiki{
+        font-size: 1.5em;
+        height: 70vh;
+        display: flex;
+    }
+
+    .texto-wiki_principal{
+        position: absolute;
+    }
+    .foto-wiki{
+        margin: 40px;
+    }
+}
